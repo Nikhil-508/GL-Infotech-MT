@@ -12,6 +12,9 @@ import ImageSlider from './ImageSlider';
 import SlideImage1 from './Assets/difc_2.png'
 import SlideImage2 from './Assets/houses.png'
 import SlideImage3 from './Assets/building.png'
+import SlideImage4 from './Assets/fullbuilding.png'
+import SlideImage5 from './Assets/manlooking'
+import SlideImage6 from './Assets/cityimage'
 
 
 
@@ -22,7 +25,7 @@ const Home = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    const images = [SlideImage1,SlideImage2,SlideImage3]
+    const images = [SlideImage1,SlideImage2,SlideImage3,SlideImage4,SlideImage5,SlideImage6]
 
     return (
         <div className='box-border p-0 m-0 relative font-outfit'>
